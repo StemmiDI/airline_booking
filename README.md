@@ -13,3 +13,6 @@
 ## Прочее
 
 [Инструкция по использованию gulp-file-include](https://www.npmjs.com/package/gulp-file-include)
+
+Страница проекта - https://stemmidi.github.io/airline_booking/
+Ссылка на проект - https://github.com/StemmiDI/airline_booking
