@@ -1,0 +1,25 @@
+.menu__list {
+  display: flex;
+  gap: 16px;
+  a {
+    padding: 10px;
+    text-decoration: none;
+    color: $primary;
+    font-size: 16px;
+    font-weight: 400;
+    transition: color ease-in-out 0.3s;
+    &:hover {
+      color: $primary-hover;
+    }
+  }
+  .sign__up a {
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: $primary;
+    color: $white;
+    transition: opacity ease-in-out 0.3s;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

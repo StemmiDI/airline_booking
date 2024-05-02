@@ -1,9 +1,9 @@
-@import "settings";
-@import "variables";
-@import "fonts";
-@import "templates/header";
-@import "templates/footer";
-@import "templates/nav";
-* {
-  background-color: rgb(23, 223, 183);
-}
+@import 'variables';
+@import 'settings';
+@import 'reset';
+@import 'fonts';
+@import 'templates/header';
+@import 'templates/footer';
+@import 'templates/nav';
+@import 'templates/logo';
+@import 'templates/main';

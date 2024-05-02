@@ -168,41 +168,13 @@ table {
 .menu__list a:hover {
   color: #7C8DB0;
 }
-.menu__list .sign__up a {
+.menu__list a .sign__up a {
   padding: 12px 20px;
   border-radius: 4px;
   background-color: #605DEC;
   color: #ffffff;
-  transition: opacity ease-in-out 0.3s;
-}
-.menu__list .sign__up a:hover {
-  opacity: 0.8;
 }
 
 .logo {
   padding: 15px;
-}
-
-.main {
-  background: url("../images/world_map.png") no-repeat center/cover;
-  height: calc(100% - 107px);
-}
-.main__wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  min-height: 700px;
-}
-.main__title {
-  font-size: 96px;
-  font-weight: 800;
-  line-height: 1;
-  text-align: center;
-  background: url("../images/main_gradient.jpeg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
