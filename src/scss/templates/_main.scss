@@ -1,19 +1,20 @@
 .main {
-  background: url('../images/world_map.png') no-repeat center / cover;
+  background: url("../images/world_map.png") no-repeat center / cover;
   height: calc(100% - 107px);
+  min-height: 933px;
   &__wrap {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-    min-height: 700px;
+    min-height: 933px;
   }
   &__title {
     font-size: 96px;
     font-weight: 800;
     line-height: 1;
     text-align: center;
-    background: url('../images/main_gradient.jpeg');
+    background: url("../images/main_gradient.jpeg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
